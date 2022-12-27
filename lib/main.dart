@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
 
 String getFullName(String firstName, String secondName) {
-  return firstName + " " + secondName;
+  return "$firstName $secondName";
+}
+
+void test() {
+  var person = {
+    "age": 20,
+    "name": "akshay",
+  };
+  print(person);
 }
 
 void main() {
@@ -15,7 +23,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     print(getFullName("akshay", "chaudhary"));
-
+    test();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
