@@ -6,7 +6,7 @@ String getFullName(String firstName, String secondName) {
 
 void test() {
   var person = {
-    "age": 20,
+    "age": 25,
     "name": "akshay",
   };
   print(person);
